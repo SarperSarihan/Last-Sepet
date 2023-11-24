@@ -59,8 +59,20 @@ urunler.forEach((urun)=>{
     btn.classList.add('btn' , 'btn-dark')
     btn.textContent='sepete ekle'
     btn.addEventListener('click',()=>{
-        sepet.push(urun);
+        // sepet.push(urun);
+        console.log(sepet);
+        sepet.forEach(sepetUrunu=>{
+            onsole.log(sepetUrunu.isim==urun.isim);
+            if (sepetUrunu.isim==urun.isim){
+                sepetUrunu.quantity++
+                
+            }else{
+                sepet.push(urun);
+            }
 
+        })
+        
+        
         localStorage.setItem('sepet',JSON.stringify(sepet))
         span.textContent=sepet.length
     });
