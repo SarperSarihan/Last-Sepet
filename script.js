@@ -20,7 +20,7 @@ if (localItem) {
 }
 // localStorage.clear();
 
-if (window.location.href == "https://sarpersarihan.github.io/lastSepet/") {
+if (window.location.href == "https://sarpersarihan.github.io/lastSepet/index.html") {
     const row = document.querySelector(".row");
 
     //!Arama kısmını yapıcaz
@@ -134,7 +134,7 @@ if (window.location.href == "https://sarpersarihan.github.io/lastSepet/") {
 
         row.append(col);
     });
-} else if (window.location.href == "https://sarpersarihan.github.io/lastSepet/"){
+} else if (window.location.href == "https://sarpersarihan.github.io/lastSepet/sepet.html"){
     const container = document.querySelector(".container");
 
     if (sepet.length == 0) {
