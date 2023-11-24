@@ -20,7 +20,7 @@ if (localItem) {
 }
 // localStorage.clear();
 
-if (window.location.href == "https://sarpersarihan.github.io/lastSepet/index.html") {
+if (window.location.href == "https://sarpersarihan.github.io/lastSepet/index.html"||"https://sarpersarihan.github.io/lastSepet/") {
     const row = document.querySelector(".row");
 
     //!Arama kısmını yapıcaz
